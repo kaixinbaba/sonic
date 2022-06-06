@@ -39,7 +39,7 @@ whatlang = "0.11"
 regex = "1.4"
 
 [target.'cfg(unix)'.dependencies]
-nix = "0.18"
+nix = "0.20"
 jemallocator = { version = "0.3", optional = true }
 
 [target.'cfg(windows)'.dependencies]
